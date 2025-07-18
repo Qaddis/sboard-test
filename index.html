@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/typescript.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Тестовое задание на TypeScript | Барсуков С.Д.</title>
+		<link rel="stylesheet" href="src/css/style.css" />
+	</head>
+	<body>
+		<div id="app">
+			<main>
+				<h1>Тестовое задание</h1>
+
+				<div class="wrapper">
+					<div class="container">
+						<!-- Тут будет canvas -->
+					</div>
+
+					<form id="form">
+						<h2>Настройка</h2>
+
+						<div class="form-sect">
+							<h3>Прямоугольник 1</h3>
+
+							<div class="row">
+								<div class="label">
+									<label for="rect1_width">Ширина</label>
+									<input
+										required
+										type="number"
+										name="rect1_width"
+										id="rect1_width"
+									/>
+								</div>
+
+								<div class="label">
+									<label for="rect1_width">Высота</label>
+									<input
+										required
+										type="number"
+										name="rect1_height"
+										id="rect1_height"
+									/>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="label">
+									<label for="rect1_pos-x">Позиция по X</label>
+									<input
+										required
+										type="number"
+										name="rect1_pos-x"
+										id="rect1_pos-x"
+									/>
+								</div>
+
+								<div class="label">
+									<label for="rect1_pos-y">Позиция по Y</label>
+									<input
+										required
+										type="number"
+										name="rect1_pos-y"
+										id="rect1_pos-y"
+									/>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="label">
+									<label for="rect1_conn-x">Точка подсоединения по X</label>
+									<input
+										required
+										type="number"
+										name="rect1_conn-x"
+										id="rect1_conn-x"
+									/>
+								</div>
+
+								<div class="label">
+									<label for="rect1_conn-y">Точка подсоединения по Y</label>
+									<input
+										required
+										type="number"
+										name="rect1_conn-y"
+										id="rect1_conn-y"
+									/>
+								</div>
+
+								<div class="label">
+									<label for="rect1_conn-a">Угол точки подсоединения</label>
+									<input
+										required
+										type="number"
+										name="rect1_conn-a"
+										id="rect1_conn-a"
+									/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-sect">
+							<h3>Прямоугольник 2</h3>
+
+							<div class="row">
+								<div class="label">
+									<label for="rect2_width">Ширина</label>
+									<input
+										required
+										type="number"
+										name="rect2_width"
+										id="rect2_width"
+									/>
+								</div>
+
+								<div class="label">
+									<label for="rect2_width">Высота</label>
+									<input
+										required
+										type="number"
+										name="rect2_height"
+										id="rect2_height"
+									/>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="label">
+									<label for="rect2_pos-x">Позиция по X</label>
+									<input
+										required
+										type="number"
+										name="rect2_pos-x"
+										id="rect2_pos-x"
+									/>
+								</div>
+
+								<div class="label">
+									<label for="rect2_pos-y">Позиция по Y</label>
+									<input
+										required
+										type="number"
+										name="rect2_pos-y"
+										id="rect2_pos-y"
+									/>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="label">
+									<label for="rect2_conn-x">Точка подсоединения по X</label>
+									<input
+										required
+										type="number"
+										name="rect2_conn-x"
+										id="rect2_conn-x"
+									/>
+								</div>
+
+								<div class="label">
+									<label for="rect2_conn-y">Точка подсоединения по Y</label>
+									<input
+										required
+										type="number"
+										name="rect2_conn-y"
+										id="rect2_conn-y"
+									/>
+								</div>
+
+								<div class="label">
+									<label for="rect2_conn-a">Угол точки подсоединения</label>
+									<input
+										required
+										type="number"
+										name="rect2_conn-a"
+										id="rect2_conn-a"
+									/>
+								</div>
+							</div>
+						</div>
+
+						<button type="submit">Обновить canvas</button>
+					</form>
+				</div>
+			</main>
+		</div>
+
+		<script type="module" src="/src/main.ts"></script>
+	</body>
+</html>

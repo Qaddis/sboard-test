@@ -1,0 +1,77 @@
+/* Globals */
+
+body {
+	font-size: 16px;
+	font-family: sans-serif;
+	background-color: #eaebed;
+	color: #1c1c1c;
+}
+
+main {
+	max-width: 1140px;
+	margin: 20px auto;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3 {
+	text-align: center;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 1.5rem;
+	margin: 20px;
+}
+
+h2 {
+	font-size: 1.325rem;
+	margin: 0 0 20px;
+}
+
+h3 {
+	font-size: 1.15rem;
+	margin: 0;
+}
+
+/* Canvas */
+
+.container {
+	background-color: #fafafa;
+	border: 1px solid #1c1c1c;
+	margin-bottom: 35px;
+}
+
+/* Form */
+
+#form {
+	border: 1px dashed #1c1c1c;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.form-sect + .form-sect {
+	margin-top: 20px;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0px 25px;
+	margin-top: 10px;
+}
+
+.row .label {
+	display: flex;
+	flex-direction: column;
+	gap: 0 5px;
+}
+
+button[type="submit"] {
+	display: block;
+	margin: 25px auto 0;
+	font-size: 1.25rem;
+}
